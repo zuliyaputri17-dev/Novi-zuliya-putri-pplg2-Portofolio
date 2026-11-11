@@ -1,0 +1,211 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "poppins" ,sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+span{
+  color: rgb(0, 0, 0);
+  
+}
+
+.header {
+    background-color: #4a96f3;
+}
+    
+
+    
+.logo img {
+    width: 1500px;
+    height: 109px;
+}
+
+.teks {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    transition: 0.3s ease;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 600px;
+
+}
+
+
+.teks:hover {
+    
+    color: rgb(35, 20, 131);
+    text-shadow: 0 0 25px rgb(8, 6, 142),
+                 0 0 50px  rgb(34, 93, 222) ;
+    transform: scale(1.1);
+}
+
+.navbar{
+  background-color: rgb(0, 81, 152);
+  
+  
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+.navbar a:hover,
+.navbar a.active{
+    background-color: rgb(0, 55, 21);
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+.konten {
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.artikel{
+    
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(157, 159, 160);
+  }
+
+.beritanya {
+    width: 1000px;
+    overflow: hidden;
+    margin-top: 5px;
+    flex: 2;
+    margin-right: 20px;
+    
+
+}
+
+ .beritanya img{
+    width: 300px;
+    height: auto;
+    margin-left: 50px;
+    padding: 10px;
+    
+ }
+
+ .beritanya h3{
+    font-size: 20px;
+    text-decoration: none;
+
+ }
+ .beritanya p{
+    color: black;
+ }
+ 
+ .beritanya .one {
+    padding: 40px;
+ }
+ .beritanya .two {
+    padding: 40px;
+ }
+ .beritanya .thre {
+    padding: 40px;
+ }
+
+ .sidebar {
+      flex: 1;
+       min-width: 250px;
+       background-color: rgb(0, 81, 152);
+       padding: 10px;
+       border-radius: 10px;
+       
+ }
+ .sidebar h1,p{
+    color: white;
+    text-decoration: none;
+    
+ }
+ .sidebar img{
+     border-radius: 10px;
+ }
+ 
+ .footer {
+     background-color: #0325a0;
+     color: white;
+     text-align: center;
+     padding: 10px;
+ }
+
+ .content {
+      flex: 2;
+      min-width: 300px;
+      background-color: #a3b8ce;
+      padding: 40px;
+      border-radius: 10px;
+    }
+
+    .content img {
+      width: 50%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .content p{
+        color: black;
+    }
+    .content a{
+        color: red;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
